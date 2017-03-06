@@ -10,13 +10,13 @@
     <form id="form1" runat="server">
     <div>
          <asp:PlaceHolder runat="server" ID="SignedPH">
-             <asp:Label ID="lblUserName" runat="server" Text="UserName"></asp:Label><br/>
+             <asp:Label ID="lblUserNam1e" runat="server" Text="UserName"></asp:Label><br/>
              <asp:LinkButton runat="server" ID="signoutBtn" OnClick="signoutBtn_Click">Click Me to Sign Out</asp:LinkButton>
     </asp:PlaceHolder>
         <br/>
         <br/>
     <asp:PlaceHolder runat="server" ID="SignInPH">
-        <asp:LinkButton runat="server" ID="signBtn" OnClick="signBtn_Click">Click Me to Sign</asp:LinkButton>
+        <asp:LinkButton runat="servetestr" ID="signBtn" OnClick="signBtn_Click">Click Me to Sign</asp:LinkButton>
     </asp:PlaceHolder>
     </div>
     </form>
